@@ -1,6 +1,3 @@
-# PROYECTO 2
+# PORTAL DE VACANTES DE EMPLEO
 
 ### Autor: Luis Danniel Ernesto Castellanos Galindo
-_Carnet: 201902238_
-
-**Manejo e Implementación de Archivos Segundo Semestre 2021**

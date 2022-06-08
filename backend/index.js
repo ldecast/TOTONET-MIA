@@ -2,7 +2,7 @@ require('dotenv').config({ path: __dirname + '/.env' })
 const express = require('express');
 const cors = require('cors');
 const http = require('http');
-// const Router = require('./endpoints');
+const Login = require('./endpoints/login');
 
 /* init */
 const PORT = process.env.PORT || 8080;
@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors());
 
 /* Router */
-// app.use('/home', Router);
+app.use('/login', Login);
 // app.use('/admin', Admin);
 
 /* Inicialización de socket.io */

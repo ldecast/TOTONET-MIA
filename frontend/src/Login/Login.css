@@ -1,0 +1,71 @@
+.logincard {
+    display: block;
+    background-color: #3d5a80;
+    padding: 20px 27px 15px 27px;
+    margin: 40px auto 40px auto;
+    width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.logincard>* {
+    display: block;
+    border-radius: 15px;
+    padding: 8px;
+    height: 45px;
+    margin: auto auto 25px auto;
+    border: none;
+    color: black;
+}
+
+.logincard>button {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    margin-top: 40px;
+    background-color: #4caf50;
+    /* color: white; */
+}
+
+#signin {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    margin-top: 40px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #4caf50;
+}
+
+input, select {
+    background-color: silver;
+}
+
+input:focus {
+    outline: none;
+}
+
+.logincard>i {
+    margin: 10px auto 10px auto;
+    padding: auto;
+    border: 3px solid black;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    font-size: 38px;
+}
+
+.logincard>hr {
+    padding: 1px;
+    margin: 35px 0px 35px 0px;
+}
+
+@media (max-width: 768px) {
+    .logincard {
+        margin: auto;
+        /* height: 100vh; */
+        width: 100%;
+        border-radius: 0;
+    }
+}

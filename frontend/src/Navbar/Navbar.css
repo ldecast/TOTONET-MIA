@@ -1,0 +1,19 @@
+.topnav {
+    display: flex;
+    background-color: #333333;
+}
+
+.topnav>h1 {
+    margin: 20px;
+    color: white;
+}
+
+#login {
+    background-color: #4caf50;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+}
